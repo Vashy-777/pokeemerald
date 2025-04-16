@@ -349,7 +349,7 @@ static u8 ObjectEventCB2_NoMovement2(void)
 
 static void TryHidePlayerReflection(void)
 {
-    if (gObjectEvents[gPlayerAvatar.objectEventID].hasReflection)
+    if (gObjectEvents[gPlayerAvatar.objectEventId].hasReflection)
     {
         s16 x, y;
         struct ObjectEvent *playerObjEvent = & gObjectEvents[gPlayerAvatar.objectEventId];
